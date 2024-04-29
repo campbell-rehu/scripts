@@ -1,3 +1,4 @@
+#! /bin/bash
 if [[ -z "$1" ]]; then
     echo "usage: ./scp-to-server.sh [source_dir|file_path] [target_username] [target_ip_address] [target_dir]"
     echo "please enter a source directory or file path"
